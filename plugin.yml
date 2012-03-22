@@ -1,0 +1,10 @@
+name: PocketFurnace
+version: 1.4
+description: Smelt, burn and cook items with commands.
+author: spoothie
+main: net.spoothie.pocketfurnace.PocketFurnace
+depend: [Vault]
+commands:
+    pf:
+        description: Smelts, burns or cooks an itemstack.
+        usage: /pf [-a]
